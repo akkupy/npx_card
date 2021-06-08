@@ -59,7 +59,7 @@ const questions = [
 const data = {
     name: chalk.bold.green("             Akash S"),
     handle: chalk.white("@akkupy"),
-    work: `${chalk.white("Engineering Student at")} ${chalk
+    Currently: `${chalk.white("Engineering Student at")} ${chalk
         .hex("#2b82b2")
         .bold("Cec")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("akkupy/"),
@@ -68,7 +68,7 @@ const data = {
     web: chalk.cyan("https://akkupy.github.io/"),
     npx: chalk.red("npx") + " " + chalk.white("akkupy"),
 
-    labelWork: chalk.white.bold("       Work:"),
+    labelCurrently: chalk.white.bold("       Currently:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
@@ -80,7 +80,7 @@ const me = boxen(
     [
         `${data.name}`,
         ``,
-        `${data.labelWork}  ${data.work}`,
+        `${data.labelCurrently}  ${data.Currently}`,
         ``,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
